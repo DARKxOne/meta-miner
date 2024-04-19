@@ -12,13 +12,16 @@ chmod +x mm.js
 * Get gminer (and gminer v.2.39 for c29v algo support):
 
 ```shell
-wget https://github.com/develsoftware/GMinerRelease/releases/download/2.42/gminer_2_42_linux64.tar.xz
+
+
 mkdir gminer
-(cd gminer && tar xf ../gminer_2_42_linux64.tar.xz)
+
+
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.39/gminer_2_39_linux64.tar.xz
 mkdir gminer39
 (cd gminer39 && tar xf ../gminer_2_39_linux64.tar.xz)
 ```
+
 
 * Run Meta Miner:
 
